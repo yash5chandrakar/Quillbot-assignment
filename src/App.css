@@ -1,38 +1,369 @@
-.App {
+/* HEADER SECTION CSS */
+.outerDiv {
+  max-width: 100vw;
+}
+
+
+.headerSection {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.headerSection p {
+  font-size: 2.5vw;
+  padding: 8px;
+  margin: 30px;
+  font-weight: 520;
+  letter-spacing: 0.5px;
+}
+
+.headerSection button {
+  background-color: #499557;
+  color: white;
+  font-size: 2vw;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 70px;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 50px;
+  font-size: 2vw;
+  font-weight: bolder;
+  box-shadow: 2px 0.5px 2px black;
+}
+
+/* ADVATAGE SECTION CSS */
+
+.advantageOuterDiv {
+  margin-top: 4vw;
+  /* height: 600px; */
+  background-image: url("https://images.unsplash.com/photo-1476673160081-cf065607f449?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80");
+  background-size: cover;
+  width: 100%;
+}
+
+.advantageInner {
+  display: flex;
+  height: 100%;
+}
+
+.leftSection {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftSection img {
+  width: 42vw;
+}
+
+.rightSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.rightItem {
+  padding: 0.5vw;
+  margin: 0.5vw;
+  width: 70%;
+  text-overflow: clip;
+  text-align: left;
+  cursor: pointer;
+}
+
+.itemHeading {
+  color: #499557;
+  font-size: 1.5vw;
+  margin: 6px 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.itemDescription {
+  font-size: 1.3vw;
+  color: #505050;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.selectedItem {
+  color: #252525;
+}
+
+.progressBar {
+  height: 4px;
+  background-color: rgb(222, 225, 227);
+  margin: 4px 0px;
+}
+
+.progress {
+  height: 4px;
+  background-color: #499557;
+}
+
+/* PREMIUM SECTION CSS */
+
+.premiumOuterDiv {
+  margin-top: 4vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* margin: 20px; */
+  padding: 10px;
+}
+
+.premiumHeading {
+  font-size: 2.5vw;
+  padding: 8px;
+  margin: 30px;
+  font-weight: 520;
+  letter-spacing: 0.5px;
+}
+
+.premiumTable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+.freeSection,
+.premSection {
+  width: 25vw;
+}
+
+
+.freeHead {
+  background-color: #499557;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  text-align: center;
+  font-size: 1.2vw;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px;
+  letter-spacing: 1px;
+  height: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.premHead {
+  background-color: rgb(243, 172, 42);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  text-align: center;
+  font-size: 1.2vw;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px;
+  letter-spacing: 1px;
+  height: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 60px; */
+  height: 8vw;
+  padding: 0vw;
+  box-shadow: 0px 0px 2px rgb(199, 198, 198);
+}
+
+.btnDiv button {
+  background-color: #499557;
+  color: white;
+  font-size: 1.5vw;
+  border: none;
+  border-radius: 25px;
+  padding: 1.2vw 6vw;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btnDivPrem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0vw;
+  /* height: 60px; */
+  height: 8vw;
+  box-shadow: 0px 0px 2px rgb(199, 198, 198);
+}
+
+.btnDivPrem button {
+  background-color: rgb(243, 172, 42);
+  color: white;
+  font-size: 1.3vw;
+  border: none;
+  border-radius: 25px;
+  /* padding: 12px 6vw; */
+  padding: 1.2vw 6vw;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.paraItems {
+  font-size: 1.2vw;
+  padding: 3vw 4vw;
+  box-shadow: 0px 0px 2px rgb(199, 198, 198);
+  display: flex;
+  align-items: center;
+  text-align: left;
+  max-height: 4vw;
+}
+
+.lastItem {
+  background-color: lightgray;
+  padding: 3.5vw;
+  font-size: 1.3vw;
+  box-shadow: 0px 0px 2px rgb(199, 198, 198);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  text-align: center;
+  letter-spacing: 0px;
+  text-shadow: 0px 0px 1.2px black;
+}
+
+.someText {
+  font-size: 1.8vw;
+  width: 50%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* DETAILS SECTION CSS */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.detailOuterDiv {
+  margin-top: 6vw;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
+}
+
+.detailOuterDiv p {
+  margin: 10px;
+  text-align: center;
+}
+
+.roundProgress {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.roundItem {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
 }
 
-.App-link {
-  color: #61dafb;
+.circleDiv1 {
+  font-size: 1.5vw;
+  border-radius: 50%;
+  height: 12vw;
+  width: 12vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: conic-gradient(#499557 270deg, lightgray 0deg);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.percent1 {
+  height: 11vw;
+  width: 11vw;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50%;
+  color: #499557;
+  font-weight: 600;
+}
+
+.circleDiv2 {
+  font-size: 1.5vw;
+  border-radius: 50%;
+  height: 12vw;
+  width: 12vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: conic-gradient(#499557 360deg, lightgray 0deg);
+}
+
+.percent2 {
+  height: 11vw;
+  width: 11vw;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50%;
+  color: #499557;
+  font-weight: 600;
+}
+
+.circleDiv3 {
+  font-size: 1.5vw;
+  border-radius: 50%;
+  height: 12vw;
+  width: 12vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: conic-gradient(#499557 306deg, lightgray 0deg);
+}
+
+.percent3 {
+  height: 11vw;
+  width: 11vw;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50%;
+  color: #499557;
+  font-weight: 600;
+}
+
+.bigValue {
+  font-size: 3.5vw;
+}
+
+.smallValue {
+  font-size: 1.2vw;
 }
