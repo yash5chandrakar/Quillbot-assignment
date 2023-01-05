@@ -53,14 +53,11 @@ const Details = () => {
     }, [filled1, filled2, filled3, toggle])
 
 
-
-
-
     return (
-        <div className='detailOuterDiv'>
+        <div className='detailOuterDiv' id='roundProgress'>
             <p className='premiumHeading'>Write better, faster, and clearer instantly</p>
             <p className='someText'>QuillBot is trusted by students, professionals writers, and business people who want to write more effectively.</p>
-            <div className='roundProgress' id='roundProgress'>
+            <div className='roundProgress' >
                 <div className='roundItem'>
                     <div className='circleDiv1' id='circle1' style={{
                         background: `conic-gradient(#499557 ${filled1}deg, lightgray 0deg`
