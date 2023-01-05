@@ -1,11 +1,11 @@
 /* HEADER SECTION CSS */
 .outerDiv {
   max-width: 100vw;
+  min-height: 100vh;
 }
 
-
 .headerSection {
-  height: 200px;
+  /* height: 15vw; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,8 +14,8 @@
 
 .headerSection p {
   font-size: 2.5vw;
-  padding: 8px;
-  margin: 30px;
+  /* padding: 15px; */
+  margin: 3vw;
   font-weight: 520;
   letter-spacing: 0.5px;
 }
@@ -23,10 +23,12 @@
 .headerSection button {
   background-color: #499557;
   color: white;
-  font-size: 2vw;
+  font-size: 1.2vw;
+  font-weight: 550;
   border: none;
   border-radius: 25px;
-  padding: 10px 70px;
+  padding: 0.8vw 7vw;
+  /* padding: 6px 16px; */
   cursor: pointer;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -36,16 +38,18 @@ nav {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 50px;
-  font-size: 2vw;
-  font-weight: bolder;
+  color: #252525;
+  height: 4vw;
+  font-size: 1.5vw;
+  font-weight: 550;
+  font-family: 'Open Sans', sans-serif;
   box-shadow: 2px 0.5px 2px black;
 }
 
 /* ADVATAGE SECTION CSS */
 
 .advantageOuterDiv {
-  margin-top: 4vw;
+  margin-top: 5vw;
   /* height: 600px; */
   background-image: url("https://images.unsplash.com/photo-1476673160081-cf065607f449?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80");
   background-size: cover;
@@ -87,8 +91,9 @@ nav {
 
 .itemHeading {
   color: #499557;
-  font-size: 1.5vw;
+  font-size: 1.4vw;
   margin: 6px 0px;
+  font-weight: bold;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -100,16 +105,20 @@ nav {
 
 .selectedItem {
   color: #252525;
+  /* font-weight: 550; */
 }
 
 .progressBar {
-  height: 4px;
+  /* height: 4px; */
+  height: 0.3vw;
   background-color: rgb(222, 225, 227);
-  margin: 4px 0px;
+  /* margin: 4px 0px; */
+  margin-top: 1vw;
 }
 
 .progress {
-  height: 4px;
+  /* height: 4px; */
+  height: 0.3vw;
   background-color: #499557;
 }
 
@@ -191,10 +200,10 @@ nav {
 .btnDiv button {
   background-color: #499557;
   color: white;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   border: none;
   border-radius: 25px;
-  padding: 1.2vw 6vw;
+  padding: 1vw 6vw;
   font-weight: 600;
   cursor: pointer;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -213,11 +222,11 @@ nav {
 .btnDivPrem button {
   background-color: rgb(243, 172, 42);
   color: white;
-  font-size: 1.3vw;
+  font-size: 1.2vw;
   border: none;
   border-radius: 25px;
   /* padding: 12px 6vw; */
-  padding: 1.2vw 6vw;
+  padding: 1vw 6vw;
   font-weight: 600;
   cursor: pointer;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -225,30 +234,32 @@ nav {
 
 
 .paraItems {
-  font-size: 1.2vw;
+  font-size: 1.5vw;
+  /* font-size: 1rem; */
   padding: 3vw 4vw;
   box-shadow: 0px 0px 2px rgb(199, 198, 198);
   display: flex;
   align-items: center;
   text-align: left;
   max-height: 4vw;
+  color: #252525;
 }
 
 .lastItem {
   background-color: lightgray;
-  padding: 3.5vw;
-  font-size: 1.3vw;
+  padding: 2vw;
+  font-size: 1.5vw;
   box-shadow: 0px 0px 2px rgb(199, 198, 198);
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   text-align: center;
   letter-spacing: 0px;
-  text-shadow: 0px 0px 1.2px black;
+  text-shadow: 0px 0px 0.8px black;
 }
 
 .someText {
-  font-size: 1.8vw;
-  width: 50%;
+  font-size: 1.5vw;
+  /* width: 50%; */
   text-align: center;
 }
 
