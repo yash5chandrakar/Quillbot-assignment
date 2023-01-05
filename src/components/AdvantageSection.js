@@ -32,16 +32,18 @@ const AdvantageSection = () => {
             elements[i].classList.remove("selectedItem")
         }
         elements[itemNumber].classList.add("selectedItem")
-
     }
+
     let timeoutId;
+
     useEffect(() => {
         if (filled < 100) {
             clearTimeout(timeoutId)
             // eslint-disable-next-line react-hooks/exhaustive-deps
-            timeoutId = setTimeout(() => setFilled(prev => prev += 0.7), 30)
+            timeoutId = setTimeout(() => setFilled(prev => prev += 0.6), 30)
         }
         else {
+            setFilled(0)
             setSelected(prev => {
                 if (prev === 3) {
                     handleItemSelection(0)
@@ -52,7 +54,7 @@ const AdvantageSection = () => {
                     return prev += 1
                 }
             })
-            setFilled(0)
+
         }
 
         let progressElement = document.getElementsByClassName("progress")
