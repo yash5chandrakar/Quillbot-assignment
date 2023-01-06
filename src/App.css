@@ -236,13 +236,26 @@ nav {
 .paraItems {
   font-size: 1.5vw;
   /* font-size: 1rem; */
-  padding: 3vw 4vw;
-  box-shadow: 0px 0px 2px rgb(199, 198, 198);
+  padding: 3vw 2vw;
+  box-shadow: 0px 0px 1px rgb(199, 198, 198);
   display: flex;
   align-items: center;
+  justify-content: space-between;
   text-align: left;
   max-height: 4vw;
   color: #252525;
+}
+
+.paraItems span {
+  float: right;
+  color: gray;
+  cursor: pointer;
+  margin-left: 0.5vw;
+  font-size: 1.8vw;
+}
+
+.paraItems span:hover {
+  color: lightgray;
 }
 
 .lastItem {

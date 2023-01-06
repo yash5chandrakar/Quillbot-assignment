@@ -23,16 +23,16 @@ const PremiumSection = () => {
                 <div className='premSection'>
                     <p className='premHead'>💎  PREMIUM</p>
                     <div className='btnDivPrem'><button>Upgrade to Premium</button></div>
-                    <p className='paraItems'>✔️ Unlimited words in the Paraphraser</p>
-                    <p className='paraItems'>✔️ Standard, Fluency, Expand, Shorted, Formal, Simple, and Creative modes</p>
-                    <p className='paraItems'>✔️ 4 synonym options</p>
-                    <p className='paraItems'>✔️ Unlimited Freeze workds and phrases</p>
-                    <p className='paraItems'>✔️ 6000 words in the summarizer</p>
-                    <p className='paraItems'>✔️ Faster processing speed</p>
-                    <p className='paraItems'>✔️ Advanced grammar rewrites</p>
-                    <p className='paraItems'>✔️ Compare Modes (Desktop Only)</p>
-                    <p className='paraItems'>✔️ Plagiarism Checker*</p>
-                    <p className='paraItems'>✔️ Tone Detection</p>
+                    <p className='paraItems'>✔️ Unlimited words in the Paraphraser<span>🛈</span> </p>
+                    <p className='paraItems'>✔️ Standard, Fluency, Expand, Shorted, Formal, Simple, and Creative modes <span>🛈</span> </p>
+                    <p className='paraItems'>✔️ 4 synonym options <span>🛈</span> </p>
+                    <p className='paraItems'>✔️ Unlimited Freeze workds and phrases <span>🛈</span> </p>
+                    <p className='paraItems'>✔️ 6000 words in the summarizer <span>🛈</span> </p>
+                    <p className='paraItems'>✔️ Faster processing speed <span>🛈</span> </p>
+                    <p className='paraItems'>✔️ Advanced grammar rewrites <span>🛈</span> </p>
+                    <p className='paraItems'>✔️ Compare Modes (Desktop Only) <span>🛈</span> </p>
+                    <p className='paraItems'>✔️ Plagiarism Checker* <span>🛈</span> </p>
+                    <p className='paraItems'>✔️ Tone Detection <span>🛈</span> </p>
                     <p className='lastItem'>3-Day Money-Back Guarantee</p>
                 </div>
             </div>
