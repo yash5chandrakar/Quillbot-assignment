@@ -19,12 +19,12 @@ const Details = () => {
         }
 
         if (!toggle) {
-            elements.addEventListener('click', initialize)
+            elements.addEventListener('mouseover', initialize)
             setToggle(prev => !prev)
         }
 
         return () => {
-            elements.removeEventListener('click', initialize)
+            elements.removeEventListener('mouseover', initialize)
         }
     }, [toggle])
 
