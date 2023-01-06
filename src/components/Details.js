@@ -10,10 +10,16 @@ const Details = () => {
     const [text2, setText2] = useState(0)
     const [text3, setText3] = useState(0)
 
+    const [scaleNum, setScaleNum] = useState(0.5)
+
+
+
     // const obj = [75, 50, 85];
 
     useEffect(() => {
         let elements = document.getElementById("roundProgress")
+        // let roundItems = document.getElementById("roundItem")
+
         function initialize() {
             setToggle(prev => !prev)
         }
@@ -30,7 +36,7 @@ const Details = () => {
 
     useEffect(() => {
         if (filled1 <= 270 && toggle) {
-            setTimeout(() => setFilled1(prev1 => prev1 += 1), 21)
+            setTimeout(() => setFilled1(prev1 => prev1 += 1), 20)
             let value1 = (filled1 / 270) * 75;
             if (value1 % 5 === 0) {
                 setText1(value1.toFixed(0))
@@ -50,15 +56,32 @@ const Details = () => {
                 setText3(value3.toFixed(0))
             }
         }
-    }, [filled1, filled2, filled3, toggle])
 
+        if (scaleNum < 1) {
+            setTimeout(() => setScaleNum(prev => prev += 0.01), 21)
+        }
+
+    }, [filled1, filled2, filled3, toggle, scaleNum])
+
+
+    function handleRefresh() {
+        setScaleNum(0.5)
+        setFilled1(0)
+        setFilled3(0)
+        setFilled2(0)
+        setText1(0)
+        setText2(0)
+        setText3(0)
+    }
 
     return (
         <div className='detailOuterDiv' id='roundProgress'>
             <p className='premiumHeading'>Write better, faster, and clearer instantly</p>
             <p className='someText'>QuillBot is trusted by students, professionals writers, and business people who want to write more effectively.</p>
-            <div className='roundProgress' >
-                <div className='roundItem'>
+            <div className='roundProgress' style={{
+                transform: `scale(${scaleNum})`
+            }}>
+                <div className='roundItem' >
                     <div className='circleDiv1' id='circle1' style={{
                         background: `conic-gradient(#499557 ${filled1}deg, lightgray 0deg`
                     }}>
@@ -83,6 +106,7 @@ const Details = () => {
                     <p className='someText'>Who reported their grades improved after using QuillBot.</p>
                 </div>
             </div>
+            <div className='refreshIcon' onClick={() => handleRefresh()}>↻</div>
         </div>
     )
 }

@@ -253,7 +253,6 @@ nav {
   transition: 1s;
 }
 
-
 .paraItems {
   font-size: 1.5vw;
   /* font-size: 1rem; */
@@ -412,4 +411,20 @@ nav {
 
 .smallValue {
   font-size: 1.2vw;
+}
+
+.refreshIcon {
+  font-size: 3vw;
+  /* margin: 0 1vw;
+  padding: 0 1vw; */
+  height: 4vw;
+  width: 4vw;
+  margin-bottom: 3vw;
+  color: #499557;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 3px solid #499557;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
