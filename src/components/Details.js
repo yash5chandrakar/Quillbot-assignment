@@ -10,7 +10,7 @@ const Details = () => {
     const [text2, setText2] = useState(0)
     const [text3, setText3] = useState(0)
 
-    const [scaleNum, setScaleNum] = useState(0.5)
+    const [scaleNum, setScaleNum] = useState(0.6)
 
 
 
@@ -58,14 +58,14 @@ const Details = () => {
         }
 
         if (scaleNum < 1) {
-            setTimeout(() => setScaleNum(prev => prev += 0.01), 21)
+            setTimeout(() => setScaleNum(prev => prev += 0.01), 20)
         }
 
     }, [filled1, filled2, filled3, toggle, scaleNum])
 
 
     function handleRefresh() {
-        setScaleNum(0.5)
+        setScaleNum(0.6)
         setFilled1(0)
         setFilled3(0)
         setFilled2(0)
