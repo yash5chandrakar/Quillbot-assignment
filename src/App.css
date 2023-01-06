@@ -33,6 +33,11 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.headerSection button:hover {
+  background-color: #376f41;
+  transition: 1s;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -215,6 +220,11 @@ nav {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.btnDiv button:hover {
+  background-color: #376f41;
+  transition: 1s;
+}
+
 .btnDivPrem {
   display: flex;
   justify-content: center;
@@ -236,6 +246,11 @@ nav {
   font-weight: 600;
   cursor: pointer;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btnDivPrem button:hover {
+  background-color: rgb(192, 137, 34);
+  transition: 1s;
 }
 
 
