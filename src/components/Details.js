@@ -36,21 +36,21 @@ const Details = () => {
 
     useEffect(() => {
         if (filled1 <= 270 && toggle) {
-            setTimeout(() => setFilled1(prev1 => prev1 += 1), 30)
+            setTimeout(() => setFilled1(prev1 => prev1 += 1), 20)
             let value1 = (filled1 / 270) * 75;
             if (value1 % 5 === 0) {
                 setText1(value1.toFixed(0))
             }
         }
         if (filled2 <= 360 && toggle) {
-            setTimeout(() => setFilled2(prev2 => prev2 += 1), 30)
+            setTimeout(() => setFilled2(prev2 => prev2 += 1), 20)
             let value2 = (filled2 / 360) * 50;
             if (value2 % 5 === 0) {
                 setText2(value2.toFixed(0))
             }
         }
         if (filled3 <= 306 && toggle) {
-            setTimeout(() => setFilled3(prev3 => prev3 += 1), 30)
+            setTimeout(() => setFilled3(prev3 => prev3 += 1), 20)
             let value3 = (filled3 / 306) * 85;
             if (value3 % 5 === 0) {
                 setText3(value3.toFixed(0))
