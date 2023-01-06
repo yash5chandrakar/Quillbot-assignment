@@ -423,7 +423,7 @@ nav {
   color: #499557;
   cursor: pointer;
   border-radius: 50%;
-  border: 3px solid #499557;
+  border: 0.2vw solid #499557;
   display: flex;
   justify-content: center;
   align-items: center;
