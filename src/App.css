@@ -13,11 +13,13 @@
 }
 
 .headerSection p {
-  font-size: 2.5vw;
+  font-size: 2.3vw;
   /* padding: 15px; */
+  color: #252525;
   margin: 3vw;
-  font-weight: 520;
-  letter-spacing: 0.5px;
+  font-family: 'Open Sans', sans-serif !important;
+  /* font-weight: 520; */
+  /* letter-spacing: 0.5px; */
 }
 
 .headerSection button {
