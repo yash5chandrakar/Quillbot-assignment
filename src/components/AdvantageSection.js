@@ -54,7 +54,6 @@ const AdvantageSection = () => {
                     return prev += 1
                 }
             })
-
         }
 
         let progressElement = document.getElementsByClassName("progress")
@@ -118,3 +117,5 @@ const AdvantageSection = () => {
 }
 
 export default AdvantageSection
+
+

@@ -95,7 +95,7 @@ const PremiumSection = () => {
 
                     <p className='paraItems'>✔️ Standard, Fluency, Expand, Shorted, Formal, Simple, and Creative modes <ToolTipComponent heading={objects[1]['title-info-heading']} body={objects[1]['info-heading-body']} /> </p>
                     <p className='paraItems'>✔️ 4 synonym options <ToolTipComponent heading={objects[2]['title-info-heading']} body={objects[2]['info-heading-body']} /></p>
-                    <p className='paraItems'>✔️ Unlimited Freeze workds and phrases <ToolTipComponent heading={objects[3]['title-info-heading']} body={objects[3]['info-heading-body']} /> </p>
+                    <p className='paraItems'>✔️ Unlimited Freeze works and phrases <ToolTipComponent heading={objects[3]['title-info-heading']} body={objects[3]['info-heading-body']} /> </p>
                     <p className='paraItems'>✔️ 6000 words in the summarizer <ToolTipComponent heading={objects[4]['title-info-heading']} body={objects[4]['info-heading-body']} /> </p>
                     <p className='paraItems'>✔️ Faster processing speed <ToolTipComponent heading={objects[5]['title-info-heading']} body={objects[5]['info-heading-body']} /> </p>
                     <p className='paraItems'>✔️ Advanced grammar rewrites <ToolTipComponent heading={objects[6]['title-info-heading']} body={objects[6]['info-heading-body']} /> </p>
